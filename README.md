@@ -1,6 +1,7 @@
 # Reese Thurman - Computer Science ePortfolio
 
 This repository contains the source code and assets for my **CS 499 Computer Science Capstone Project** at **Southern New Hampshire University**.  
+
 It demonstrates my growth as a software engineer through the development of *The Banking Game*, a Python-based financial simulation project.
 
 ---
@@ -28,6 +29,7 @@ The project showcases my skills in:
 ## Professional Reflection
 
 Through this project, I applied full-stack principles, improved legacy code, and deepened my understanding of modern software development practices.  
+
 This portfolio highlights my ability to design, implement, and document robust, scalable software systems.
 
 ---
