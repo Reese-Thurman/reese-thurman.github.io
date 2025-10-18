@@ -1,7 +1,46 @@
-# Reese Thurman’s Computer Science ePortfolio
+# Reese Thurman - Computer Science ePortfolio
 
-## Code Review Project
-[View my Code Repository](https://github.com/Reese-Thurman/reese-thurman.github.io/tree/main)
+This repository contains the source code and assets for my **CS 499 Computer Science Capstone** at **Southern New Hampshire University**.  
+It demonstrates my growth as a software engineer through the development of *The Banking Game*, a Python-based financial simulation project.
 
-## Video Demonstration
-[Watch my Project Video](https://youtu.be/UBxUXcW7RX8)
+---
+
+## Repository Overview
+
+- **`index.html`** – The main portfolio webpage hosted via GitHub Pages.  
+- **`Self_Assessment.pdf`** – Professional self-assessment reflecting on my development journey.  
+- **`Software_Design_Narrative.pdf`**, **`Algorithms_Narrative.pdf`**, **`Databases_Narrative.pdf`** – Narrative essays explaining the enhancement process in each competency area.  
+- **`Original_Artifact.pdf`** and **`Enhanced_Artifact.pdf`** – Documentation comparing the original and final versions of my project.  
+
+---
+
+## Capstone Project – *The Banking Game*
+
+The **Banking Game** is a Python-based financial simulation that challenges players to reach $1,000,000 in assets before retirement.  
+The project showcases my skills in:
+
+- **Software Design & Engineering:** Modular design, maintainable structure, and encapsulated functionality.  
+- **Algorithms & Data Structures:** Use of randomization, compound interest calculations, and event handling.  
+- **Databases:** SQLite integration for persistent data and player tracking.
+
+---
+
+## Professional Reflection
+
+Through this project, I applied full-stack principles, improved legacy code, and deepened my understanding of modern software development practices.  
+This portfolio highlights my ability to design, implement, and document robust, scalable software systems.
+
+---
+
+## View the Live ePortfolio
+
+➡️ **[Visit My ePortfolio Website](https://reese-thurman.github.io)**
+
+---
+
+## Project Resources
+
+- **[Code Repository (Capstone Project)](https://github.com/Reese-Thurman/CS499_Capstone)**  
+- **[Video Code Review](https://youtu.be/UBxUXcW7RX8)**
+
+---
