@@ -11,7 +11,7 @@ It demonstrates my growth as a software engineer through the development of *The
 - **`index.html`** – The main portfolio webpage hosted via GitHub Pages.  
 - **`Professional Self-Assessment.docx`** – Professional self-assessment reflecting on my development journey.  
 - **`Milestone Two Narrative-Thurman.docx`**, **`Milestone Three Narrative-Thurman.docx`**, **`Milestone Four Narrative-Thurman.docx`** – Narrative essays explaining the enhancement process in each competency area.  
-- **`OriginalArtifact.zip`** and **`EnhancedArtifact.zip`** – Source code and documentation comparing the original and final versions of my project.  
+- **`OriginalArtifact.zip`** and **`Enhanced Artifact.zip`** – Source code and documentation comparing the original and final versions of my project.  
 
 ---
 
