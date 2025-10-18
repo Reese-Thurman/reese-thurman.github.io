@@ -1,6 +1,6 @@
 # Reese Thurman - Computer Science ePortfolio
 
-This repository contains the source code and assets for my **CS 499 Computer Science Capstone** at **Southern New Hampshire University**.  
+This repository contains the source code and assets for my **CS 499 Computer Science Capstone Project** at **Southern New Hampshire University**.  
 It demonstrates my growth as a software engineer through the development of *The Banking Game*, a Python-based financial simulation project.
 
 ---
@@ -10,7 +10,7 @@ It demonstrates my growth as a software engineer through the development of *The
 - **`index.html`** – The main portfolio webpage hosted via GitHub Pages.  
 - **`Professional Self-Assessment.docx`** – Professional self-assessment reflecting on my development journey.  
 - **`Milestone Two Narrative-Thurman.docx`**, **`Milestone Three Narrative-Thurman.docx`**, **`Milestone Four Narrative-Thurman.docx`** – Narrative essays explaining the enhancement process in each competency area.  
-- **`OriginalArtifact.zip`** and **`EnhancedArtifact.zip`** – Documentation comparing the original and final versions of my project.  
+- **`OriginalArtifact.zip`** and **`EnhancedArtifact.zip`** – Source code and documentation comparing the original and final versions of my project.  
 
 ---
 
