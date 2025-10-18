@@ -8,9 +8,9 @@ It demonstrates my growth as a software engineer through the development of *The
 ## Repository Overview
 
 - **`index.html`** – The main portfolio webpage hosted via GitHub Pages.  
-- **`Self_Assessment.pdf`** – Professional self-assessment reflecting on my development journey.  
-- **`Software_Design_Narrative.pdf`**, **`Algorithms_Narrative.pdf`**, **`Databases_Narrative.pdf`** – Narrative essays explaining the enhancement process in each competency area.  
-- **`Original_Artifact.pdf`** and **`Enhanced_Artifact.pdf`** – Documentation comparing the original and final versions of my project.  
+- **`Professional Self-Assessment.docx`** – Professional self-assessment reflecting on my development journey.  
+- **`Milestone Two Narrative-Thurman.docx`**, **`Milestone Three Narrative-Thurman.docx`**, **`Milestone Four Narrative-Thurman.docx`** – Narrative essays explaining the enhancement process in each competency area.  
+- **`OriginalArtifact.zip`** and **`EnhancedArtifact.zip`** – Documentation comparing the original and final versions of my project.  
 
 ---
 
