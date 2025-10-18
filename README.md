@@ -40,7 +40,7 @@ This portfolio highlights my ability to design, implement, and document robust, 
 
 ## Project Resources
 
-- **[Code Repository (Capstone Project)](https://github.com/Reese-Thurman/CS499_Capstone)**  
+- **[Code Repository (Capstone Project)](https://github.com/Reese-Thurman/reese-thurman.github.io)**  
 - **[Video Code Review](https://youtu.be/UBxUXcW7RX8)**
 
 ---
