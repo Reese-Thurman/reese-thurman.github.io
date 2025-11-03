@@ -1,126 +1,160 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Reese Thurman - CS 499 Computer Science Capstone</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reese Thurman — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
   <style>
+    * { box-sizing: border-box; }
+
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
-      color: #222;
       margin: 0;
-      padding: 0;
-      line-height: 1.6;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #0d1117, #1a1f2b);
+      color: #e6edf3;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 40px 20px;
     }
+
     header {
-      background-color: #2b3a67;
-      color: white;
       text-align: center;
-      padding: 2rem 1rem;
+      margin-bottom: 50px;
     }
-    header h1 {
-      margin: 0;
-      font-size: 2.2rem;
+
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid #58a6ff;
+      margin-bottom: 15px;
+      object-fit: cover;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
     }
-    header p {
-      font-size: 1.1rem;
-      margin-top: 0.5rem;
-      color: #cfd8f7;
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      color: #58a6ff;
     }
-    main {
-      max-width: 850px;
-      margin: 2rem auto;
-      padding: 1.5rem;
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+
+    p {
+      max-width: 600px;
+      line-height: 1.6;
+      color: #c9d1d9;
     }
-    h2 {
-      border-bottom: 2px solid #2b3a67;
-      padding-bottom: 0.3rem;
-      margin-top: 2rem;
+
+    .socials {
+      margin-top: 15px;
     }
-    a {
-      color: #2b3a67;
-      text-decoration: none;
+
+    .socials a {
+      color: #8b949e;
+      margin: 0 10px;
+      font-size: 1.4rem;
+      transition: color 0.2s;
     }
-    a:hover {
-      text-decoration: underline;
+
+    .socials a:hover {
+      color: #58a6ff;
     }
-    footer {
+
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      width: 100%;
+      max-width: 900px;
+    }
+
+    .card {
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 12px;
+      padding: 25px;
+      width: 100%;
+      max-width: 400px;
       text-align: center;
-      padding: 1rem;
-      background-color: #2b3a67;
-      color: white;
-      margin-top: 3rem;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+      transition: transform 0.2s, box-shadow 0.2s;
     }
-    .btn {
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 25px rgba(0, 0, 0, 0.35);
+    }
+
+    .card h2 {
+      margin-top: 0;
+      color: #79c0ff;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      color: #adbac7;
+      margin-bottom: 20px;
+    }
+
+    .button {
       display: inline-block;
-      margin: 0.3rem 0.2rem;
-      padding: 0.5rem 1rem;
-      background-color: #2b3a67;
-      color: white;
-      border-radius: 5px;
+      padding: 10px 20px;
+      border-radius: 6px;
       text-decoration: none;
+      background-color: #238636;
+      color: white;
+      font-weight: 600;
+      transition: background 0.2s;
     }
-    .btn:hover {
-      background-color: #405294;
+
+    .button:hover {
+      background-color: #2ea043;
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 0.85rem;
+      color: #8b949e;
     }
   </style>
 </head>
 <body>
   <header>
+    <img src="profile.jpg" alt="Profile picture" class="profile-img" />
     <h1>Reese Thurman</h1>
-    <p>CS 499 - Computer Science Capstone</p>
+    <p>
+      I’m a Computer Science B.S. graduate with a passion for software development and a strong interest in game design and interactive systems.
+      I enjoy building creative, strategic, and visually engaging web applications and games.
+    </p>
+    <div class="socials">
+      <a href="https://github.com/reese-thurman" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/reese-thurman" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:reese.thurman@email.com" title="Email"><i class="fas fa-envelope"></i></a>
+    </div>
   </header>
 
-  <main>
-    <h2>About This Portfolio</h2>
-    <p>
-      This portfolio showcases my capstone project for SNHU’s Bachelor of Science in Computer Science program.
-      The project presented here, <strong>The Banking Game</strong>, demonstrates enhancements across software design,
-      algorithms and data structures, and database management.
-    </p>
-
-    <h2>Professional Reflection</h2>
-    <p>
-      This project demonstrates my growth as a software engineer through the application of
-      full-stack development principles, iterative enhancement, and technical documentation.
-      It also demonstrates my skills in Python development, software design,
-      data management, and problem-solving.
-    </p>
-
-    <div style="margin-top:1rem;">
-      <a class="btn" href="Professional Self-Assessment.docx" target="_blank">Professional Self-Assessment</a>
+  <section class="projects">
+    <div class="card">
+      <h2>Rome: The Eternal City</h2>
+      <p>A browser-based strategy game inspired by ancient Rome. Players explore, expand, and manage the politics, economy, and factions of a living empire.</p>
+      <a href="https://github.com/reese-thurman/rome" class="button" target="_blank">View Repository</a>
     </div>
 
-    <h2>Capstone Project: The Banking Game</h2>
-    <p>
-      The Banking Game is a text-based financial simulation written in Python that challenges players
-      to manage investments and reach $1,000,000 before retirement. It features compound interest,
-      random financial events, and persistent data storage through SQLite.
-    </p>
-
-    <ul>
-      <li><strong>Software Design & Engineering:</strong> Modular architecture, encapsulated functions, and maintainable structure.</li>
-      <li><strong>Algorithms & Data Structures:</strong> Compound interest calculation, random event systems, and statistical trend analysis.</li>
-      <li><strong>Databases:</strong> SQLite integration for settings, leaderboard persistence, and difficulty customization.</li>
-    </ul>
-
-    <div style="margin-top:1rem;">
-      <a class="btn" href="https://github.com/Reese-Thurman/reese-thurman.github.io" target="_blank">View Full Project on GitHub</a>
-      <a class="btn" href="https://youtu.be/UBxUXcW7RX8" target="_blank">Watch Code Review Video</a>
-      <a class="btn" href="OriginalArtifact.zip" target="_blank">Original Artifact</a>
-      <a class="btn" href="Enhanced Artifact.zip" target="_blank">Enhanced Artifact</a>
-      <a class="btn" href="Milestone Two Narrative-Thurman.docx" target="_blank">Software Design Narrative</a>
-      <a class="btn" href="Milestone Three Narrative-Thurman.docx" target="_blank">Algorithms & Data Structures Narrative</a>
-      <a class="btn" href="Milestone Four Narrative-Thurman.docx" target="_blank">Databases Narrative</a>
+    <div class="card">
+      <h2>Imperium</h2>
+      <p>A sci-fi strategy game where players command fleets, colonize planets, and wage galactic warfare in a tick-based, persistent universe.</p>
+      <a href="https://github.com/reese-thurman/imperium" class="button" target="_blank">View Repository</a>
     </div>
-  </main>
+  </section>
 
   <footer>
-    Reese Thurman | Software Engineer
+    © 2025 Reese Thurman — Built with HTML & CSS
   </footer>
 </body>
 </html>
+```
