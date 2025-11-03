@@ -9,134 +9,186 @@
   <style>
     * { box-sizing: border-box; }
 
-    body {
-      margin: 0;
-      font-family: 'Inter', sans-serif;
-      background: linear-gradient(135deg, #0d1117, #1a1f2b);
-      color: #e6edf3;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      min-height: 100vh;
-      padding: 40px 20px;
-    }
+<!DOCTYPE html>
 
-    header {
-      text-align: center;
-      margin-bottom: 50px;
-    }
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reese Thurman — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
 
-    .profile-img {
-      width: 120px;
-      height: 120px;
-      border-radius: 50%;
-      border: 3px solid #58a6ff;
-      margin-bottom: 15px;
-      object-fit: cover;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-    }
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #0d1117, #1a1f2b);
+  color: #e6edf3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
 
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
-      color: #58a6ff;
-    }
+.intro-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 900px;
+  width: 100%;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 60px;
+}
 
-    p {
-      max-width: 600px;
-      line-height: 1.6;
-      color: #c9d1d9;
-    }
+.profile-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 3px solid #58a6ff;
+  object-fit: cover;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  flex-shrink: 0;
+}
 
-    .socials {
-      margin-top: 15px;
-    }
+.intro-text {
+  flex: 1;
+  min-width: 250px;
+}
 
-    .socials a {
-      color: #8b949e;
-      margin: 0 10px;
-      font-size: 1.4rem;
-      transition: color 0.2s;
-    }
+.intro-text h1 {
+  font-size: 2.5rem;
+  margin: 0 0 10px 0;
+  color: #58a6ff;
+}
 
-    .socials a:hover {
-      color: #58a6ff;
-    }
+.intro-text p {
+  line-height: 1.6;
+  color: #c9d1d9;
+  margin-bottom: 15px;
+}
 
-    .projects {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 30px;
-      width: 100%;
-      max-width: 900px;
-    }
+.socials {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
 
-    .card {
-      background: #161b22;
-      border: 1px solid #30363d;
-      border-radius: 12px;
-      padding: 25px;
-      width: 100%;
-      max-width: 400px;
-      text-align: center;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
-      transition: transform 0.2s, box-shadow 0.2s;
-    }
+.socials a {
+  color: #8b949e;
+  font-size: 1.4rem;
+  transition: color 0.2s;
+}
 
-    .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 6px 25px rgba(0, 0, 0, 0.35);
-    }
+.socials a:hover {
+  color: #58a6ff;
+}
 
-    .card h2 {
-      margin-top: 0;
-      color: #79c0ff;
-    }
+.github-main {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 6px;
+  background-color: #238636;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s;
+  margin-top: 10px;
+}
 
-    .card p {
-      font-size: 0.95rem;
-      color: #adbac7;
-      margin-bottom: 20px;
-    }
+.github-main:hover {
+  background-color: #2ea043;
+}
 
-    .button {
-      display: inline-block;
-      padding: 10px 20px;
-      border-radius: 6px;
-      text-decoration: none;
-      background-color: #238636;
-      color: white;
-      font-weight: 600;
-      transition: background 0.2s;
-    }
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  max-width: 900px;
+}
 
-    .button:hover {
-      background-color: #2ea043;
-    }
+.card {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  padding: 25px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
 
-    footer {
-      margin-top: 60px;
-      font-size: 0.85rem;
-      color: #8b949e;
-    }
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.35);
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #79c0ff;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #adbac7;
+  margin-bottom: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  background-color: #238636;
+  color: white;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.button:hover {
+  background-color: #2ea043;
+}
+
+footer {
+  margin-top: 60px;
+  font-size: 0.85rem;
+  color: #8b949e;
+}
+
+@media(max-width: 700px){
+  .intro-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .intro-text {
+    text-align: center;
+  }
+}
+
   </style>
 </head>
 <body>
-  <header>
+  <section class="intro-container">
     <img src="profile.jpg" alt="Profile picture" class="profile-img" />
-    <h1>Reese Thurman</h1>
-    <p>
-      I’m a software developer and computer science graduate with a passion for game design and development.
-      My work blends creativity, design, and technology to create immersive gaming experiences.
-      I enjoy building creative, strategic, and visually engaging web and mobile applications.
-    </p>
-    <div class="socials">
-      <a href="https://github.com/reese-thurman" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/reese-thurman" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-      <a href="mailto:reese.thurman@email.com" title="Email"><i class="fas fa-envelope"></i></a>
+    <div class="intro-text">
+      <h1>Reese Thurman</h1>
+      <p>
+        I’m a software developer with a background in Computer Science and a passion for creating interactive gaming applications.
+        My work blends creativity, design, and technology to build immersive experiences.
+      </p>
+      <div class="socials">
+        <a href="https://github.com/reese-thurman" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/reese-thurman" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:reese.thurman@email.com" title="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+      <a href="https://github.com/reese-thurman?tab=repositories" target="_blank" class="github-main">View All Projects</a>
     </div>
-  </header>
+  </section>
 
   <section class="projects">
     <div class="card">
@@ -145,11 +197,12 @@
       <a href="https://github.com/reese-thurman/rome" class="button" target="_blank">View Repository</a>
     </div>
 
-    <div class="card">
-      <h2>Imperium</h2>
-      <p>A sci-fi strategy game where players command fleets, colonize planets, and wage galactic warfare in a tick-based, persistent universe.</p>
-      <a href="https://github.com/reese-thurman/imperium" class="button" target="_blank">View Repository</a>
-    </div>
+<div class="card">
+  <h2>Imperium</h2>
+  <p>A sci-fi strategy game where players command fleets, colonize planets, and wage galactic warfare in a tick-based, persistent universe.</p>
+  <a href="https://github.com/reese-thurman/imperium" class="button" target="_blank">View Repository</a>
+</div>
+
   </section>
 
   <footer>
@@ -157,6 +210,7 @@
   </footer>
 </body>
 </html>
+
 
 
 
