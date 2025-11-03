@@ -1,6 +1,6 @@
 # Reese Thurman 
 
-I’m a software developer and computer science graduate with a passion for **software development** and **game design and worldbuilding**.
+I’m a software developer and computer science graduate with a passion for **software development,** **game design, and worldbuilding**.
 My goal is to build interactive and immersive experiences that blend creativity, storytelling, and technology.
 
 ---
