@@ -1,48 +1,54 @@
-# Reese Thurman - Computer Science ePortfolio
+# Reese Thurman 
 
-This repository contains the source code and assets for my **CS 499 Computer Science Capstone Project** at **Southern New Hampshire University**.  
-
-It demonstrates my growth as a software engineer through the development of *The Banking Game*, a Python-based financial simulation project.
-
----
-
-## Repository Overview
-
-- **`index.html`** – The main portfolio webpage hosted via GitHub Pages.  
-- **`Professional Self-Assessment.docx`** – Professional self-assessment reflecting on my development journey.  
-- **`Milestone Two Narrative-Thurman.docx`**, **`Milestone Three Narrative-Thurman.docx`**, **`Milestone Four Narrative-Thurman.docx`** – Narrative essays explaining the enhancement process in each competency area.  
-- **`OriginalArtifact.zip`** and **`Enhanced Artifact.zip`** – Source code and documentation comparing the original and final versions of my project.  
+I’m a Computer Science, B.S. graduate with a passion for **software development** and a growing interest in **game design and worldbuilding**.
+My goal is to build interactive and immersive experiences that blend creativity, storytelling, and technology.
 
 ---
 
-## Capstone Project – *The Banking Game*
+## Current Projects
 
-The **Banking Game** is a Python-based financial simulation that challenges players to reach $1,000,000 in assets before retirement.  
-The project showcases my skills in:
+### [Rome: The Eternal City](https://github.com/reese-thurman/rome)
 
-- **Software Design & Engineering:** Modular design, maintainable structure, and encapsulated functionality.  
-- **Algorithms & Data Structures:** Use of randomization, compound interest calculations, and event handling.  
-- **Databases:** SQLite integration for persistent data and player tracking.
+A browser-based strategy and roleplaying game inspired by classical Roman culture and mythology.
+Players can explore ancient civilizations, form alliances, and engage in dynamic political and military systems.
 
----
-
-## Professional Reflection
-
-Through this project, I applied full-stack principles, improved legacy code, and deepened my understanding of modern software development practices.  
-
-This portfolio highlights my ability to design, implement, and document robust, scalable software systems.
+**Tech Stack:** HTML, CSS, JavaScript, Node.js *(in development)*
+**Status:** Early development — gameplay systems and UI prototyping.
 
 ---
 
-## View the Live ePortfolio
+### [Imperium](https://github.com/reese-thurman/imperium)
 
-➡️ **[Visit My ePortfolio Website](https://reese-thurman.github.io)**
+A science fiction empire-building game focused on space exploration, diplomacy, and long-term strategic growth.
+Inspired by grand strategy and simulation titles, *Imperium* challenges players to manage vast interstellar domains.
+
+**Tech Stack:** Modern web technologies *(to be finalized)*
+**Status:** Design and early backend development.
+
+---
+
+## Interests
+
+* Full-stack web development
+* Game engines and simulation systems
+* Procedural content generation
+* UI/UX design for interactive worlds
 
 ---
 
-## Project Resources
+## GitHub Stats
 
-- **[Code Repository (Capstone Project)](https://github.com/Reese-Thurman/reese-thurman.github.io)**  
-- **[Video Code Review](https://youtu.be/UBxUXcW7RX8)**
+![Reese's GitHub Stats](https://github-readme-stats.vercel.app/api?username=reese-thurman\&show_icons=true\&theme=tokyonight\&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=reese-thurman\&layout=compact\&theme=tokyonight\&hide_border=true)
 
 ---
+
+## Connect with Me
+
+* **LinkedIn:** [linkedin.com/in/reese-thurman](https://linkedin.com/in/reese-thurman)
+* **Email:** [reese.thurman@example.com](mailto:reese.thurman@example.com) *(replace with your real one)*
+* **Portfolio Website:** [https://reese-thurman.github.io/](https://reese-thurman.github.io/)
+
+---
+
+*Thanks for visiting my GitHub! Feel free to explore my projects or reach out if you’d like to collaborate or discuss development ideas.*
